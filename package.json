@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed:pokemon": "node ./src/tasks/seedPokemon.js",
     "seed:moves": "node ./src/tasks/seedMoves.js",
+    "seed:pkm-move": "node ./src/tasks/seedPokemonMoves.js",
     "start": "node ./src/server.js"
   },
   "keywords": [],

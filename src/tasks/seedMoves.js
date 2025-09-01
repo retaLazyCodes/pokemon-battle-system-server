@@ -5,7 +5,7 @@ import Database from 'better-sqlite3';
 const db = new Database('./pokedex.db', { verbose: console.log });
 
 const START_ID = 1;
-const END_ID = 918;
+const END_ID = 620;
 const DELAY_MS = 500;
 
 const API_URL = 'https://pokeapi.co/api/v2';
@@ -73,5 +73,5 @@ const setupDatabase = (() => {
     await delay(DELAY_MS);
   }
 
-  console.log(chalk.green('✅ Seed de movimientos completado'));
+  console.log('✅ Seed de movimientos completado');
 })();
